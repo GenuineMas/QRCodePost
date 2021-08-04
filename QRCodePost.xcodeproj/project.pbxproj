@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		8C881DD52691CC87004E3BCE /* QRCodePost.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C881DD32691CC87004E3BCE /* QRCodePost.xcdatamodeld */; };
 		8C881DD72691CC89004E3BCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C881DD62691CC89004E3BCE /* Assets.xcassets */; };
 		8C881DDA2691CC89004E3BCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C881DD82691CC89004E3BCE /* LaunchScreen.storyboard */; };
+		8CE92C8926BAA9EC007B651E /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 8CE92C8826BAA9EC007B651E /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CE92C8926BAA9EC007B651E /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +88,9 @@
 			dependencies = (
 			);
 			name = QRCodePost;
+			packageProductDependencies = (
+				8CE92C8826BAA9EC007B651E /* Alamofire */,
+			);
 			productName = QRCodePost;
 			productReference = 8C881DC72691CC87004E3BCE /* QRCodePost.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +118,9 @@
 				Base,
 			);
 			mainGroup = 8C881DBE2691CC87004E3BCE;
+			packageReferences = (
+				8CE92C8726BAA9EC007B651E /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 8C881DC82691CC87004E3BCE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -345,6 +353,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8CE92C8726BAA9EC007B651E /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8CE92C8826BAA9EC007B651E /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CE92C8726BAA9EC007B651E /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		8C881DD32691CC87004E3BCE /* QRCodePost.xcdatamodeld */ = {
