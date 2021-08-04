@@ -15,6 +15,7 @@
 		8C881DD72691CC89004E3BCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C881DD62691CC89004E3BCE /* Assets.xcassets */; };
 		8C881DDA2691CC89004E3BCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C881DD82691CC89004E3BCE /* LaunchScreen.storyboard */; };
 		8CE92C8926BAA9EC007B651E /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 8CE92C8826BAA9EC007B651E /* Alamofire */; };
+		8CE92C8C26BAAF42007B651E /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8CE92C8B26BAAF42007B651E /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CE92C8926BAA9EC007B651E /* Alamofire in Frameworks */,
+				8CE92C8C26BAAF42007B651E /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +92,7 @@
 			name = QRCodePost;
 			packageProductDependencies = (
 				8CE92C8826BAA9EC007B651E /* Alamofire */,
+				8CE92C8B26BAAF42007B651E /* SnapKit */,
 			);
 			productName = QRCodePost;
 			productReference = 8C881DC72691CC87004E3BCE /* QRCodePost.app */;
@@ -120,6 +123,7 @@
 			mainGroup = 8C881DBE2691CC87004E3BCE;
 			packageReferences = (
 				8CE92C8726BAA9EC007B651E /* XCRemoteSwiftPackageReference "Alamofire" */,
+				8CE92C8A26BAAF42007B651E /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			productRefGroup = 8C881DC82691CC87004E3BCE /* Products */;
 			projectDirPath = "";
@@ -363,6 +367,14 @@
 				minimumVersion = 5.4.3;
 			};
 		};
+		8CE92C8A26BAAF42007B651E /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -370,6 +382,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 8CE92C8726BAA9EC007B651E /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		8CE92C8B26BAAF42007B651E /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CE92C8A26BAAF42007B651E /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 
