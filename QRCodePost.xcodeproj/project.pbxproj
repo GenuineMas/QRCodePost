@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C28CA7426BC27AF000A74C3 /* QRPostRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C28CA7326BC27AF000A74C3 /* QRPostRequest.swift */; };
+		8C28CA7626BC27EF000A74C3 /* QRModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C28CA7526BC27EF000A74C3 /* QRModel.swift */; };
 		8C881DCB2691CC87004E3BCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C881DCA2691CC87004E3BCE /* AppDelegate.swift */; };
 		8C881DCD2691CC87004E3BCE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C881DCC2691CC87004E3BCE /* SceneDelegate.swift */; };
 		8C881DCF2691CC87004E3BCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C881DCE2691CC87004E3BCE /* ViewController.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C28CA7326BC27AF000A74C3 /* QRPostRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRPostRequest.swift; sourceTree = "<group>"; };
+		8C28CA7526BC27EF000A74C3 /* QRModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRModel.swift; sourceTree = "<group>"; };
 		8C881DC72691CC87004E3BCE /* QRCodePost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCodePost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C881DCA2691CC87004E3BCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C881DCC2691CC87004E3BCE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +77,7 @@
 				8C881DD82691CC89004E3BCE /* LaunchScreen.storyboard */,
 				8C881DDB2691CC89004E3BCE /* Info.plist */,
 				8C881DD32691CC87004E3BCE /* QRCodePost.xcdatamodeld */,
+				8C28CA7526BC27EF000A74C3 /* QRModel.swift */,
 			);
 			path = QRCodePost;
 			sourceTree = "<group>";
@@ -81,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				8CE92C9026BAB312007B651E /* Scanner .swift */,
+				8C28CA7326BC27AF000A74C3 /* QRPostRequest.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -163,8 +169,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C28CA7426BC27AF000A74C3 /* QRPostRequest.swift in Sources */,
 				8CE92C9126BAB312007B651E /* Scanner .swift in Sources */,
 				8C881DCF2691CC87004E3BCE /* ViewController.swift in Sources */,
+				8C28CA7626BC27EF000A74C3 /* QRModel.swift in Sources */,
 				8C881DCB2691CC87004E3BCE /* AppDelegate.swift in Sources */,
 				8C881DCD2691CC87004E3BCE /* SceneDelegate.swift in Sources */,
 				8C881DD52691CC87004E3BCE /* QRCodePost.xcdatamodeld in Sources */,
