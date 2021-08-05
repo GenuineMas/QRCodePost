@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		8C28CA7426BC27AF000A74C3 /* QRPostRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C28CA7326BC27AF000A74C3 /* QRPostRequest.swift */; };
 		8C28CA7626BC27EF000A74C3 /* QRModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C28CA7526BC27EF000A74C3 /* QRModel.swift */; };
+		8C28CA7926BC28C2000A74C3 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C28CA7826BC28C2000A74C3 /* ScannerViewController.swift */; };
+		8C28CA7B26BC28E5000A74C3 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C28CA7A26BC28E5000A74C3 /* ResultViewController.swift */; };
 		8C881DCB2691CC87004E3BCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C881DCA2691CC87004E3BCE /* AppDelegate.swift */; };
 		8C881DCD2691CC87004E3BCE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C881DCC2691CC87004E3BCE /* SceneDelegate.swift */; };
 		8C881DCF2691CC87004E3BCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C881DCE2691CC87004E3BCE /* ViewController.swift */; };
@@ -24,6 +26,8 @@
 /* Begin PBXFileReference section */
 		8C28CA7326BC27AF000A74C3 /* QRPostRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRPostRequest.swift; sourceTree = "<group>"; };
 		8C28CA7526BC27EF000A74C3 /* QRModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRModel.swift; sourceTree = "<group>"; };
+		8C28CA7826BC28C2000A74C3 /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		8C28CA7A26BC28E5000A74C3 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		8C881DC72691CC87004E3BCE /* QRCodePost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCodePost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C881DCA2691CC87004E3BCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C881DCC2691CC87004E3BCE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +53,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C28CA7726BC28A0000A74C3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8C28CA7826BC28C2000A74C3 /* ScannerViewController.swift */,
+				8C28CA7A26BC28E5000A74C3 /* ResultViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		8C881DBE2691CC87004E3BCE = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +81,7 @@
 		8C881DC92691CC87004E3BCE /* QRCodePost */ = {
 			isa = PBXGroup;
 			children = (
+				8C28CA7726BC28A0000A74C3 /* ViewControllers */,
 				8CE92C8F26BAB24C007B651E /* ViewModels */,
 				8C881DCA2691CC87004E3BCE /* AppDelegate.swift */,
 				8C881DCC2691CC87004E3BCE /* SceneDelegate.swift */,
@@ -176,6 +190,8 @@
 				8C881DCB2691CC87004E3BCE /* AppDelegate.swift in Sources */,
 				8C881DCD2691CC87004E3BCE /* SceneDelegate.swift in Sources */,
 				8C881DD52691CC87004E3BCE /* QRCodePost.xcdatamodeld in Sources */,
+				8C28CA7926BC28C2000A74C3 /* ScannerViewController.swift in Sources */,
+				8C28CA7B26BC28E5000A74C3 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
