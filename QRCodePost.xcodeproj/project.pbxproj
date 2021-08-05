@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C28CA7D26BC4A76000A74C3 /* QRModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C28CA7C26BC4A76000A74C3 /* QRModel.swift */; };
 		8C881DCB2691CC87004E3BCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C881DCA2691CC87004E3BCE /* AppDelegate.swift */; };
 		8C881DCD2691CC87004E3BCE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C881DCC2691CC87004E3BCE /* SceneDelegate.swift */; };
 		8C881DCF2691CC87004E3BCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C881DCE2691CC87004E3BCE /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C28CA7C26BC4A76000A74C3 /* QRModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRModel.swift; sourceTree = "<group>"; };
 		8C881DC72691CC87004E3BCE /* QRCodePost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCodePost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C881DCA2691CC87004E3BCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C881DCC2691CC87004E3BCE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				8C881DD82691CC89004E3BCE /* LaunchScreen.storyboard */,
 				8C881DDB2691CC89004E3BCE /* Info.plist */,
 				8C881DD32691CC87004E3BCE /* QRCodePost.xcdatamodeld */,
+				8C28CA7C26BC4A76000A74C3 /* QRModel.swift */,
 			);
 			path = QRCodePost;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 				8C881DCF2691CC87004E3BCE /* ViewController.swift in Sources */,
 				8C881DCB2691CC87004E3BCE /* AppDelegate.swift in Sources */,
 				8C881DCD2691CC87004E3BCE /* SceneDelegate.swift in Sources */,
+				8C28CA7D26BC4A76000A74C3 /* QRModel.swift in Sources */,
 				8C881DD52691CC87004E3BCE /* QRCodePost.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
