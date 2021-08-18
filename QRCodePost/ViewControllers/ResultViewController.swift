@@ -71,7 +71,7 @@ class ResultViewController: UIViewController {
     }
     
     @objc func buttonAction(sender: UIButton!) {
-        
+        print("this is rootVC:",( UIApplication.shared.keyWindow?.rootViewController))
         self.dismiss(animated: false, completion: nil)
         UIApplication.shared.keyWindow?.rootViewController?.present(ScannerViewController(), animated: true, completion: nil)
         }

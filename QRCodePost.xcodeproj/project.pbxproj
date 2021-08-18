@@ -11,16 +11,18 @@
 		8C28CA7626BC27EF000A74C3 /* QRModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C28CA7526BC27EF000A74C3 /* QRModel.swift */; };
 		8C28CA7926BC28C2000A74C3 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C28CA7826BC28C2000A74C3 /* ScannerViewController.swift */; };
 		8C28CA7B26BC28E5000A74C3 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C28CA7A26BC28E5000A74C3 /* ResultViewController.swift */; };
+		8C5CD1A426C532AD00F17FFD /* SlideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5CD1A326C532AD00F17FFD /* SlideMenu.swift */; };
 		8C881DCB2691CC87004E3BCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C881DCA2691CC87004E3BCE /* AppDelegate.swift */; };
 		8C881DCD2691CC87004E3BCE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C881DCC2691CC87004E3BCE /* SceneDelegate.swift */; };
-		8C881DCF2691CC87004E3BCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C881DCE2691CC87004E3BCE /* ViewController.swift */; };
+		8C881DCF2691CC87004E3BCE /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C881DCE2691CC87004E3BCE /* SideMenuViewController.swift */; };
 		8C881DD22691CC87004E3BCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C881DD02691CC87004E3BCE /* Main.storyboard */; };
 		8C881DD52691CC87004E3BCE /* QRCodePost.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C881DD32691CC87004E3BCE /* QRCodePost.xcdatamodeld */; };
 		8C881DD72691CC89004E3BCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C881DD62691CC89004E3BCE /* Assets.xcassets */; };
 		8C881DDA2691CC89004E3BCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C881DD82691CC89004E3BCE /* LaunchScreen.storyboard */; };
 		8CE92C8926BAA9EC007B651E /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 8CE92C8826BAA9EC007B651E /* Alamofire */; };
 		8CE92C8C26BAAF42007B651E /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8CE92C8B26BAAF42007B651E /* SnapKit */; };
-		8CE92C9126BAB312007B651E /* Scanner .swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE92C9026BAB312007B651E /* Scanner .swift */; };
+		8CE92C9126BAB312007B651E /* Scanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE92C9026BAB312007B651E /* Scanner.swift */; };
+		8CEAE1A626C68A5F00666005 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEAE1A526C68A5F00666005 /* TabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,16 +30,18 @@
 		8C28CA7526BC27EF000A74C3 /* QRModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRModel.swift; sourceTree = "<group>"; };
 		8C28CA7826BC28C2000A74C3 /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
 		8C28CA7A26BC28E5000A74C3 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		8C5CD1A326C532AD00F17FFD /* SlideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenu.swift; sourceTree = "<group>"; };
 		8C881DC72691CC87004E3BCE /* QRCodePost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCodePost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C881DCA2691CC87004E3BCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C881DCC2691CC87004E3BCE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8C881DCE2691CC87004E3BCE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C881DCE2691CC87004E3BCE /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
 		8C881DD12691CC87004E3BCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C881DD42691CC87004E3BCE /* QRCodePost.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QRCodePost.xcdatamodel; sourceTree = "<group>"; };
 		8C881DD62691CC89004E3BCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C881DD92691CC89004E3BCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C881DDB2691CC89004E3BCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8CE92C9026BAB312007B651E /* Scanner .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Scanner .swift"; sourceTree = "<group>"; };
+		8CE92C9026BAB312007B651E /* Scanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scanner.swift; sourceTree = "<group>"; };
+		8CEAE1A526C68A5F00666005 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,20 @@
 		8C28CA7726BC28A0000A74C3 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				8C881DCE2691CC87004E3BCE /* SideMenuViewController.swift */,
 				8C28CA7826BC28C2000A74C3 /* ScannerViewController.swift */,
 				8C28CA7A26BC28E5000A74C3 /* ResultViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8C5CD1A226C5329900F17FFD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8C5CD1A326C532AD00F17FFD /* SlideMenu.swift */,
+				8CEAE1A526C68A5F00666005 /* TabView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		8C881DBE2691CC87004E3BCE = {
@@ -81,11 +95,11 @@
 		8C881DC92691CC87004E3BCE /* QRCodePost */ = {
 			isa = PBXGroup;
 			children = (
+				8C5CD1A226C5329900F17FFD /* Views */,
 				8C28CA7726BC28A0000A74C3 /* ViewControllers */,
 				8CE92C8F26BAB24C007B651E /* ViewModels */,
 				8C881DCA2691CC87004E3BCE /* AppDelegate.swift */,
 				8C881DCC2691CC87004E3BCE /* SceneDelegate.swift */,
-				8C881DCE2691CC87004E3BCE /* ViewController.swift */,
 				8C881DD02691CC87004E3BCE /* Main.storyboard */,
 				8C881DD62691CC89004E3BCE /* Assets.xcassets */,
 				8C881DD82691CC89004E3BCE /* LaunchScreen.storyboard */,
@@ -99,7 +113,7 @@
 		8CE92C8F26BAB24C007B651E /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				8CE92C9026BAB312007B651E /* Scanner .swift */,
+				8CE92C9026BAB312007B651E /* Scanner.swift */,
 				8C28CA7326BC27AF000A74C3 /* QRPostRequest.swift */,
 			);
 			path = ViewModels;
@@ -183,10 +197,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CEAE1A626C68A5F00666005 /* TabView.swift in Sources */,
 				8C28CA7426BC27AF000A74C3 /* QRPostRequest.swift in Sources */,
-				8CE92C9126BAB312007B651E /* Scanner .swift in Sources */,
-				8C881DCF2691CC87004E3BCE /* ViewController.swift in Sources */,
+				8CE92C9126BAB312007B651E /* Scanner.swift in Sources */,
+				8C881DCF2691CC87004E3BCE /* SideMenuViewController.swift in Sources */,
 				8C28CA7626BC27EF000A74C3 /* QRModel.swift in Sources */,
+				8C5CD1A426C532AD00F17FFD /* SlideMenu.swift in Sources */,
 				8C881DCB2691CC87004E3BCE /* AppDelegate.swift in Sources */,
 				8C881DCD2691CC87004E3BCE /* SceneDelegate.swift in Sources */,
 				8C881DD52691CC87004E3BCE /* QRCodePost.xcdatamodeld in Sources */,
@@ -381,7 +397,7 @@
 				8C881DDD2691CC89004E3BCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		8C881DDE2691CC89004E3BCE /* Build configuration list for PBXNativeTarget "QRCodePost" */ = {
 			isa = XCConfigurationList;
@@ -390,7 +406,7 @@
 				8C881DE02691CC89004E3BCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 

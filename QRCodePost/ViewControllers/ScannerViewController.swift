@@ -10,6 +10,7 @@ import AVFoundation
 import UIKit
 import SnapKit
 import Combine
+import SwiftUI
 
 @available(iOS 13.0, *)
 class ScannerViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate, ScannerDelegate,ObservableObject {
@@ -25,8 +26,11 @@ class ScannerViewController: UIViewController, AVCaptureMetadataOutputObjectsDel
         guard let scanner = self.scanner else {
             return
         }
+        
+        let btnSideMenu = UIBarButtonItem(image: UIImage(systemName: "line.horizontal.3.circle.fill"), style: .plain, target: self, action: #selector(presentSideBar))
+        self.navigationItem.setLeftBarButton(btnSideMenu, animated: true)
         scanner.requestCaptureSessionStartRunning()
-      
+
     }
     
 
@@ -69,5 +73,10 @@ class ScannerViewController: UIViewController, AVCaptureMetadataOutputObjectsDel
             self.dismiss(animated: false, completion: nil)
             UIApplication.shared.keyWindow?.rootViewController?.present(ResultViewController(), animated: true, completion: nil)
         }
+    }
+    @objc func presentSideBar () {
+
+            UIApplication.shared.keyWindow?.rootViewController?.present(SideMenuViewController(), animated: true, completion: nil)
+        
     }
 }

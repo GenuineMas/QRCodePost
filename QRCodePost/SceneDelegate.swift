@@ -25,6 +25,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                     let scanner = ScannerViewController()
 
                     let navigation = UINavigationController(rootViewController: scanner)
+                    navigation.navigationBar.barTintColor = .red
                     window.rootViewController = navigation
 
                     self.window = window
